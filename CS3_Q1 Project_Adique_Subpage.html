@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>Lorde Wiki - Adique</title>
+		<link rel="shortcut icon" type="images/lordefavicon.jpg" href="images/lordefavicon.jpg"/>
+		<meta name="author" content="John Vic A. Adique">
+		<meta name="keywords" content="HTML, CSS, CSProject, Lorde, Spotify Links">
+		<meta name="revised" content="07-11-2021">
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />	
+	</head>
+	
+	<style>
+	
+	body {                         /* This is what the base of the website will look like */
+	background-image: url(images/lordeback.jpg);  
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	}
+	
+	.infobox {                     /* The main content and information */
+	height: 1100px;
+    width: 700px;
+	background-color: #F4D37A;
+    border: 1px solid black;
+    margin-right: 300px;
+	margin-left: 200px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 50px;
+    font-family: "Times New Roman", Times, serif;
+	}
+	
+	.tracklist {                   /* The list of the tracks in the album contained in a box */      
+	height: 300px;
+    width: 300px;
+	background-color: #F4D37A;
+    border: 1px solid black;
+    margin: 20px;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+	}
+	
+	.fixedheader{                  /* Buttons for the main page, the subpage, and Lorde's Spotify */
+    width: 100%;
+    position: fixed;        
+    background: #EBE1C8;
+    padding: 20px 0;
+    color: #fff;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: left;
+    align-items: center;
+	}
+
+	
+	.navigation {                  /* A column on the right where you can click on an album and it directly leads you to Spotify */
+    float: right;
+    width: 200px;
+    background: #eee;
+	position: fixed;
+	top: 94px;
+	right: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #F6DB97;
+	}
+	
+	.fixedfooter{                 /* The footer */
+    width: 100%;
+    position: fixed;        
+    background: #EBE1C8;
+    padding: 20px 0;
+    color: black;
+	bottom: 0;
+	left: -10px;
+	}
+	
+	</style>
+	
+	<body>
+	<div class="fixedheader">
+		<span style="margin-left: 50px"><img src="images/lordefavicon.jpg" height="50px" width="50px"></span>
+		<span style="margin-left: 20px"><img src="images/lordename.jpg" height="25px" width="100px"></span>
+	    <nav>
+            <a href="file:///C:/Users/Yam/Desktop/CS3%20Q1%20Project_Adique/CS3_Q1%20Project_Adique.html"><span style="margin-left: 20px; margin-right: 20px; vertical-align:middle"><img src="images/homeicon.jpg" height="20px" width="20px"></span></a>
+            <a href="file:///C:/Users/Yam/Desktop/CS3%20Q1%20Project_Adique/CS3_Q1%20Project_Adique_Subpage.html"><span style="margin-right: 20px; vertical-align:middle"><img src="images/albumicon.jpg" height="20px" width="20px"></span></a>
+            <a href="https://open.spotify.com/artist/163tK9Wjr9P9DmM0AVK7lm?si=sgCMpcN1RLKym4iAn_t1Xg"><span style="margin-right: 20px; vertical-align:middle"><img src="images/spotifyicon.jpg" height="20px" width="20px"></span></a>
+        </nav>
+	</div>
+	
+	<div class="navigation">
+	    <nav>
+			<p><span style="font-weight:600">Lorde's Discography</span></p>
+            <p><a href="https://open.spotify.com/album/6rnzvZhe3PA57xKcKLRtJ6?si=0kqtUybAQjeZoK8kj-HTEQ"><span style="margin-left: 20px; margin-right: 20px"><img src="images/ph.jpg" height="100px" width="100px"></span></a></p>
+			<p><span style="display: flex; justify-content: center; align-items: center; font-weight:600">Pure Heroine</span></p>
+			<p><a href="https://open.spotify.com/album/2B87zXm9bOWvAJdkJBTpzF?si=YOzVlKCOReeexbmfPZc45g"><span style="margin-left: 20px; margin-right: 20px"><img src="images/melo.jpg" height="100px" width="100px"></span></a></p>
+			<p><span style="display: flex; justify-content: center; align-items: center; font-weight:600">Melodrama</span></p>
+            <p><a href="https://open.spotify.com/album/3lK2JRwfIOn2NaYtgEGTmZ?si=zib7Lrp6Temc_3G0BSNctQ"><span style="margin-left: 20px; margin-right: 20px; vertical-align:middle"><img src="images/sp.jpg" height="100px" width="100px"></span></a></p>
+			<p><span style="display: flex; justify-content: center; align-items: center; font-weight:600">Solar Power</span></p>
+	    </nav>
+	</div>
+	
+	<div class="infobox"> <!-- You can clink on any song and it will direct you to the Spotify -->
+	<p><span style="float: left; margin: 20px"><img src="images/ph.jpg" height="300px" width="300px"></span></p>
+	<p>
+	    <div class="tracklist">
+	    <ol><span style="display: flex; justify-content: center; margin-right: 45px; font-weight:600"> Tracklist</span>
+	        <li><a href="https://open.spotify.com/track/74fpNVAJrKGQuqHETi4WSt?si=d95990124cb0437c" style="text-decoration: none; color: black" >Tennis Court</a></li>
+		    <li><a href="https://open.spotify.com/track/6rjtB7KSIiJ6v9vrACMlqF?si=aec4b557e0a74185" style="text-decoration: none; color: black">400 Lux</a></li>
+		    <li><a href="https://open.spotify.com/track/2dLLR6qlu5UJ5gk0dKz0h3?si=728ab905bc534f07" style="text-decoration: none; color: black">Royals</a></li>
+		    <li><a href="https://open.spotify.com/track/2MvvoeRt8NcOXWESkxWn3g?si=17791a8b63414fde" style="text-decoration: none; color: black">Ribs</a></li>
+		    <li><a href="https://open.spotify.com/track/51QEyJI5M7uyd8DOh9tqQY?si=db1de472bd41447e" style="text-decoration: none; color: black">Buzzcut Season</a></li>
+		    <li><a href="https://open.spotify.com/track/3G6hD9B2ZHOsgf4WfNu7X1?si=367476160dca4907" style="text-decoration: none; color: black">Team</a></li>
+		    <li><a href="https://open.spotify.com/track/60jI0JgMLLj1VggHJVhtRs?si=53c634d44f474395" style="text-decoration: none; color: black">Glory and Gore</a></li>
+		    <li><a href="https://open.spotify.com/track/5TRZnGsX49uCZkXxIbD7Ru?si=a9df991af4a94013" style="text-decoration: none; color: black">Still Sane</a></li>
+		    <li><a href="https://open.spotify.com/track/35kahykNu00FPysz3C2euR?si=884abce21e4248da" style="text-decoration: none; color: black">White Teeth Teens</a></li>
+		    <li><a href="https://open.spotify.com/track/55N0YHhO55Q1lWsc4dDPcI?si=b8cc81ece87e4305" style="text-decoration: none; color: black">A World Alone</a></li>
+        </ol>
+	    </div>
+	</p>
+	<p><span style="float: left; margin: 20px"><img src="images/melo.jpg" height="300px" width="300px"></span></p>
+	<p>
+	    <div class="tracklist">
+	    <ol><span style="display: flex; justify-content: center; margin-right: 45px; font-weight:600"> Tracklist</span>
+	        <li><a href="https://open.spotify.com/track/3I4QOvltiKcMu3xmnQjEct?si=a248afa4f40f44e7" style="text-decoration: none; color: black" >Green Light</a></li>
+		    <li><a href="https://open.spotify.com/track/0PXCdhnm9fRgrIgoMcteZa?si=3b8df547b5ee451f" style="text-decoration: none; color: black">Sober</a></li>
+		    <li><a href="https://open.spotify.com/track/0zL76omZWytdTtyXKVfuDw?si=7b89fd9bf78d4c2b" style="text-decoration: none; color: black">Homemade Dynamite</a></li>
+		    <li><a href="https://open.spotify.com/track/4YBDSEzVNQbvCvVIWNtruF?si=76e5f817edad4bbb" style="text-decoration: none; color: black">The Louvre</a></li>
+		    <li><a href="https://open.spotify.com/track/4iSN72L6xCM7vQZR2I9Suz?si=c770e6191837401d" style="text-decoration: none; color: black">Liability</a></li>
+		    <li><a href="https://open.spotify.com/track/3VDX4CCJWbRXBKuW5IY5R9?si=9c33b212f76045b0" style="text-decoration: none; color: black">Hard Feelings/Loveless</a></li>
+		    <li><a href="https://open.spotify.com/track/0dtMnnWhm2AXVxjJy5hUPe?si=8854a555f4374ac0" style="text-decoration: none; color: black">Sober II (Melodrama)</a></li>
+		    <li><a href="https://open.spotify.com/track/5bMWY1u9ghi4X6fIAsQRaC?si=2a60b77668eb4ad4" style="text-decoration: none; color: black">Writer in the Dark</a></li>
+		    <li><a href="https://open.spotify.com/track/6IIcLzR05sN1gk4ngzz7Kk?si=6a29e8de00a442ee" style="text-decoration: none; color: black">Supercut</a></li>
+		    <li><a href="https://open.spotify.com/track/7kEN6uPEaCTATwQKagVcVE?si=02101e70a1084453" style="text-decoration: none; color: black">Liability (Reprise)</a></li>
+		    <li><a href="https://open.spotify.com/track/1qXjolYMICsnISl8xZAbA2?si=b1c304093fe2461d" style="text-decoration: none; color: black">Perfect Places</a></li>
+		   <li><a href="https://open.spotify.com/track/5u64RlrnvvbtNh6R0EMh6o?si=5e74a1434b8a47ae" style="text-decoration: none; color: black">Homemade Dynamite - REMIX</a></li>
+        </ol>
+	    </div>
+	</p>
+	<p><span style="float: left; margin: 20px"><img src="images/sp.jpg" height="300px" width="300px"></span></p>
+	<p>
+	    <div class="tracklist">
+	    <ol><span style="display: flex; justify-content: center; margin-right: 45px; font-weight:600"> Tracklist</span>
+	        <li><a href="https://open.spotify.com/track/7JqqIi2ktnsNkYdQhKSCrz?si=476363275e8549d3" style="text-decoration: none; color: black" >The Path</a></li>
+		    <li><a href="https://open.spotify.com/track/7s2kWabRM60W9I61HpKg8C?si=e030e79130454deb" style="text-decoration: none; color: black">Solar Power</a></li>
+		    <li><a href="https://open.spotify.com/track/4TYPnvjBbEfcDkk1UxpvYB?si=09d6687ceadc480d" style="text-decoration: none; color: black">California</a></li>
+		    <li><a href="https://open.spotify.com/track/38Zs2b75JPNB2tS7O7JQnS?si=69b9a4b72dac4c18" style="text-decoration: none; color: black">Stoned at the Nail Salon</a></li>
+		    <li><a href="https://open.spotify.com/track/5iUnomffoLeQsdlY2k5TDU?si=e50b5b56eafe4e51" style="text-decoration: none; color: black">Fallen Fruit</a></li>
+		    <li><a href="https://open.spotify.com/track/1toRu029yjgrleWg2w3gNU?si=2f0d3d256d28448a" style="text-decoration: none; color: black">Secrets from a Girl (Who's Seen it All)</a></li>
+		    <li><a href="https://open.spotify.com/track/2mP9lPo7pv9k2HTVutEisM?si=3027b59e5e92461b" style="text-decoration: none; color: black">The Man with an Axe</a></li>
+		    <li><a href="https://open.spotify.com/track/78Sn3YMeqUgJBoe6zt940Z?si=d10c040d47ba41bf" style="text-decoration: none; color: black">Dominoes</a></li>
+		    <li><a href="https://open.spotify.com/track/2qWVIatUtl2xMCHEvn4j7j?si=da22368387874417" style="text-decoration: none; color: black">Big Star</a></li>
+		    <li><a href="https://open.spotify.com/track/6vLf0MjsXzrr3WIOWK9N9j?si=04c4b14476f94841" style="text-decoration: none; color: black">Leader of a New Regime</a></li>
+		    <li><a href="https://open.spotify.com/track/7rb4dcBfW0m1LQQcDCh4Hv?si=90cd6b76af8e4fa3" style="text-decoration: none; color: black">Mood Ring</a></li>
+		    <li><a href="https://open.spotify.com/track/6kj8TeHSns33wt1Z1wdmMx?si=20921f8a57ee432d" style="text-decoration: none; color: black">Oceanic Feeling</a></li>
+        </ol>
+	    </div>
+	</p>
+	</div>
+
+	<div class="fixedfooter" ></div>
+	
+	</body>
+	
+</html>
